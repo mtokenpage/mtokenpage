@@ -640,7 +640,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #fff;
+  color: #ff66c4;
 }
 
 .section-title p {
@@ -799,10 +799,6 @@ section {
   display: flex;
   align-items: flex-start;
   margin-bottom: 35px;
-}
-
-.about .content ul li:first-child {
-  margin-top: 35px;
 }
 
 .about .content ul i {
@@ -1881,6 +1877,9 @@ section {
   }
 }
 @media (min-width: 768px) {
+  .hero-logo {
+    width: 500px;
+  }
   .align-d {
     display: flex;
     align-items: center;
