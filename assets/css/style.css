@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #fff;
+  background-color: #ff66c4;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #24243e;
+  background: #02A6CD;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #e60bb4;
+  color: #fff;
   text-decoration: none;
 }
 
