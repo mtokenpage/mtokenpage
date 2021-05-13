@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #02A6CD;
+  background: transparent;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
@@ -1111,6 +1111,9 @@ section {
   .testimonials .testimonial-item p {
     width: 80%;
   }
+  #header {
+    background-color: #02A6CD;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1894,7 +1897,7 @@ section {
   }
   .justify-content-space-between {
     justify-content: space-between;
-  }
+  }  
 }
 
 
