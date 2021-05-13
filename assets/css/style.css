@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #2dcef1;
+  background: #02A6CD;
   transition: all 0.5s;
   z-index: 997;
   padding: 25px 0;
@@ -212,7 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: #e60bb4;
+  color: #fff;
 }
 
 #header .logo img {
@@ -267,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #e60bb4;
+  background-color: #fff;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #e60bb4;
+  color: #fff;
 }
 
 .nav-menu .drop-down ul {
