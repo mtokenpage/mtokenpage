@@ -12,6 +12,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   background: #2dcef1; 
+  background-image: url('./../img/hearts_40.png');
+  background-size: 153px;
+  background-repeat: space;
 }
 
 a {
@@ -475,7 +478,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: #2dcef1;
   opacity: .8;
   position: absolute;
   bottom: 0;
@@ -531,9 +533,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #e60bb4;
-  background: -webkit-linear-gradient(to right, #07fcff, #e60bb4);
-  background: linear-gradient(to right, #07fcff, #e60bb4);
+  background: #ff66c4;
 }
 
 #hero .btn-get-started:hover {
@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 70vh;
+    height: 60vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -607,7 +607,7 @@ section {
 }
 
 .section-bg {
-  background-color: #2dcef1;
+  background-color: transparent;
 }
 
 .section-title {
@@ -635,7 +635,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #ff66c4;
+  color: #ff7fce;
 }
 
 .section-title p {
@@ -1112,7 +1112,7 @@ section {
     width: 80%;
   }
   #header {
-    background-color: #02A6CD;
+    background-color: #85E1F6;
   }
 }
 
