@@ -40,14 +40,9 @@ h1, h2, h3, h4, h5, h6 {
   right:0;
   bottom:0;
   border-radius: 300px;
-  background: #07fcff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #07fcff, #e60bb4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #07fcff, #e60bb4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
-  -webkit-mask: 
-    linear-gradient(#fff 0 0) content-box, 
-    linear-gradient(#fff 0 0);
-  -webkit-mask-composite: destination-out;
-  mask-composite: exclude;
+  background: #ff66c4;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #07fcff, #e60bb4); 
+  background: linear-gradient(to right, #07fcff, #e60bb4);  */  
 }
 
 /*--------------------------------------------------------------
@@ -799,6 +794,19 @@ section {
   display: flex;
   align-items: flex-start;
   margin-bottom: 35px;
+}
+
+.socials-community {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.socials-community i {
+  font-size: 32px;
+  color: #ff66c4;
 }
 
 .about .content ul i {
