@@ -1,3 +1,5 @@
+@font-face {font-family: "0Arame"; src: url("https://db.onlinewebfonts.com/t/548e77e130ea884c764acabe1ba1ad63.eot"); src: url("https://db.onlinewebfonts.com/t/548e77e130ea884c764acabe1ba1ad63.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/548e77e130ea884c764acabe1ba1ad63.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/548e77e130ea884c764acabe1ba1ad63.woff") format("woff"), url("https://db.onlinewebfonts.com/t/548e77e130ea884c764acabe1ba1ad63.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/548e77e130ea884c764acabe1ba1ad63.svg#0Arame") format("svg"); }
+
 /**
 * Template Name: BizLand - v1.2.1
 * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
@@ -9,10 +11,10 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "0Arame","Open Sans", sans-serif;
   color: #fff;
   background: #2dcef1; 
-  background-image: url('./../img/hearts_40.png');
+  background-image: url('./../img/hearts_20.png');
   background-size: 153px;
   background-repeat: space;
 }
@@ -27,7 +29,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "0Arame","Roboto", sans-serif;
 }
 
 .pill::after {
@@ -255,7 +257,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-weight: 600;
   padding: 0 3px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "0Arame","Open Sans", sans-serif;
 }
 
 .nav-menu > ul > li > a:before {
@@ -523,7 +525,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "0Arame","Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
