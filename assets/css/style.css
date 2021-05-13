@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #fff;
+  color: #ff66c4;
 }
 
 /*--------------------------------------------------------------
@@ -1530,7 +1530,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #e60bb4;
+  color: #ff66c4;
 }
 
 .faq .faq-list a.collapsed {
@@ -1538,7 +1538,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #e60bb4;
+  color: #ff66c4;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1688,7 +1688,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #2dcef1;
+  background: #ff66c4;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
