@@ -1864,9 +1864,10 @@ section {
 
 .catlog-item-title {
   text-align: center;
+  font-size: 12px;
 }
 #catalog a:hover {
-  color: #ffc6e9;
+  color: #ffc6e9;  
 }
 .venobox {
   color: #ff7fce;
@@ -1910,6 +1911,9 @@ section {
   .justify-content-space-between {
     justify-content: space-between;
   }  
+  .catlog-item-title {
+    font-size: 16px;
+  }
 }
 
 
