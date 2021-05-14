@@ -161,7 +161,7 @@
     height: 70vh;
 }
 .venoframe.vbvid{
-    height: 260px;
+    height: 320px;
 }
 @media (min-width: 768px) {
     .venoframe, .vbox-inline{
@@ -171,7 +171,7 @@
     }
     .venoframe.vbvid{
         width: 640px;
-        height: 360px;
+        height: 640px;
     }
 }
 @media (min-width: 992px) {
