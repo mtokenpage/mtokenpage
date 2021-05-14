@@ -93,7 +93,8 @@
           <div class="col-4">
             <img src="./assets/img/elonsmomm0078.png" class="w-100"/>            
             <div class="catlog-item-title">
-              ELON'S MOM
+              ELON'S MOM<br>
+              <a href="./assets/videos/elons_mom.mp4" class="venobox btn-watch-video" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a>
             </div>
           </div>
 
@@ -128,9 +129,28 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
 
   <script src="assets/js/main.js"></script>
+
+  <script>
+
+!(function($) {
+  "use strict";
+
+  // Porfolio isotope and filter
+  $(window).on('load', function() {    
+
+    // Initiate venobox (lightbox feature used in portofilo)
+    $(document).ready(function() {
+      $('.venobox').venobox();
+    });
+  });
+
+})(jQuery);
+
+  </script>
 
 </body>
 

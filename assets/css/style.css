@@ -1865,6 +1865,9 @@ section {
 .catlog-item-title {
   text-align: center;
 }
+.venobox {
+  color: #ff7fce;
+}
 @media (max-width: 768px) {
   #about {
     padding-top: 0 !important;
