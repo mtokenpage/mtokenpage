@@ -1862,6 +1862,9 @@ section {
   color: #444444;
 }
 
+.catlog-item-title {
+  text-align: center;
+}
 @media (max-width: 768px) {
   #about {
     padding-top: 0 !important;
