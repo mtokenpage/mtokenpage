@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-address {
   width: 100%;
-  max-width: 410px;
+  max-width: 435px;
   margin: 0 auto;
 }
 .hero-input:disabled {
