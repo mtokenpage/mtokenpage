@@ -61,6 +61,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   pointer-events: none;
 }
+.hero-address {
+  width: 100%;
+  max-width: 410px;
+  margin: 0 auto;
+}
 .hero-input:disabled {
   opacity: 1 !important;
   background-color: #fff !important;
