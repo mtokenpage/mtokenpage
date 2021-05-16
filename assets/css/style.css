@@ -53,6 +53,25 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(to right, #07fcff, #e60bb4);  */  
 }
 
+.hero-input {
+  width: 100%;
+  text-align: center;
+  border: none;
+  font-size: 12px;
+}
+.btn-copy {
+  width: 100%;
+  background-color: #ff7fce;
+  border-radius: 0;
+  padding: 8px 0;
+  border: none;
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .hero-input {
+    font-size: 16px;
+  }
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

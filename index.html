@@ -95,7 +95,15 @@
         <a href="https://app.uniswap.org/#/swap?outputCurrency=0x0Dd1989e4B0E82f154b729FF47F8c9a4f4b2cC1C" target="_blank" class="btn-get-started scrollto mr-3">BUY NOW</a>
         <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xef5a01f893a81506439572922cc7cb779e7cc91c" target="_blank" class="btn-get-started scrollto">CHART</a>
       </div>
-     
+      <div class="hero-address">
+        <h3 class="mt-5">MILF TOKEN CONTRACT ADDRESS</h3>        
+        <!-- The text field -->
+        <input class="input hero-input" type="text" value="0x0Dd1989e4B0E82f154b729FF47F8c9a4f4b2cC1C" id="token">
+        <div class="overlay-box"></div>
+        <!-- The button used to copy the text -->
+        <button id="btnCopy" class="btn btn-copy" onclick="copyClip()">Copy</button>
+
+      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -321,7 +329,7 @@
   document.getElementById("btnCopy").innerHTML = document.getElementById("btnCopy").innerHTML.replace('Copy','Copied');
   }
   </script>
-
+  
 </body>
 
 </html>
