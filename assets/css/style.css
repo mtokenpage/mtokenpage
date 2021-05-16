@@ -59,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   font-size: 12px;
   border-radius: 0;
+  pointer-events: none;
 }
 .hero-address h3 {
   font-size: 21px;
