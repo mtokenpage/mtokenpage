@@ -1930,3 +1930,11 @@ section {
 .featured-services .title {
   color: #000;
 }
+.img-steps {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+.cargo-link {
+  color: #ff7fce;
+}
