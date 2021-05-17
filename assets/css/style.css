@@ -632,7 +632,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px;
   }
   .btn-get-started {
-    padding: 10px 18px;
+    padding: 10px 12px;
   }
 }
 
@@ -1944,7 +1944,8 @@ section {
 }
 @media (min-width: 768px) {
   .hero-logo {
-    width: 500px;
+    max-width: 500px;
+    width: 48vh;
   }
   .align-d {
     display: flex;
