@@ -93,6 +93,7 @@
       <h2></h2>
       <div class="d-flex">
         <a href="https://app.uniswap.org/#/swap?outputCurrency=0x0Dd1989e4B0E82f154b729FF47F8c9a4f4b2cC1C" target="_blank" class="btn-get-started scrollto mr-3">BUY NOW</a>
+        <!-- <a href="./assets/videos/how_to_buy_milftoken.mp4" class="venobox btn-watch-video mr-3" data-vbtype="video" data-autoplay="true"> Watch Video <i class="icofont-play-alt-2"></i></a> -->
         <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xef5a01f893a81506439572922cc7cb779e7cc91c" target="_blank" class="btn-get-started scrollto">CHART</a>
       </div>
       <div class="hero-address">
@@ -306,9 +307,26 @@
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
-
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/js/main.js"></script>
 
+  <script>
+
+    !(function($) {
+      "use strict";
+    
+      // Porfolio isotope and filter
+      $(window).on('load', function() {    
+    
+        // Initiate venobox (lightbox feature used in portofilo)
+        $(document).ready(function() {
+          $('.venobox').venobox();
+        });
+      });
+    
+    })(jQuery);
+    
+      </script>
   <script>
     function copyClip() {
   /* Get the text field */
