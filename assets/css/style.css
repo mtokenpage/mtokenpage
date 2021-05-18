@@ -615,7 +615,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo-listing img {
   width: auto;
   filter: brightness(0) invert(1);
-  max-height: 20px;
+  max-height: 25px;
 }
 .logo-listing .bilaxy {
   width: 50px;
