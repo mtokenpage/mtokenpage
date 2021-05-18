@@ -19,8 +19,11 @@ body {
   background-repeat: repeat;
   background-position: top;
 }
-:focus,:active {
+:focus,:active,:hover {
   outline: none;
+}
+.btn.focus, .btn:focus {
+  box-shadow: none !important;
 }
 a {
   color: #ff7fce;
@@ -609,6 +612,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #e60bb4;
 }
 
+.logo-listing img {
+  width: auto;
+  filter: brightness(0) invert(1);
+  max-height: 20px;
+}
+.logo-listing .bilaxy {
+  width: 50px;
+  height: auto;
+  max-height: unset;
+}
+.featured-listings-row {
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+}
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -617,7 +635,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero {
-    height: 60vh;
+    height: 52vh;
   }
   #hero h1 {
     font-size: 28px;
@@ -1353,7 +1371,7 @@ section {
   .portfolio-details .portfolio-info {
     position: static;
     margin-top: 30px;
-  }
+  }  
 }
 
 /*--------------------------------------------------------------
@@ -1943,6 +1961,16 @@ section {
   }
 }
 @media (min-width: 768px) {
+  .logo-listing img {
+    width: auto;
+    filter: brightness(0) invert(1);
+    max-height: 40px;
+  }
+  .logo-listing .bilaxy {
+    width: 100px;
+    height: auto;
+    max-height: unset;
+  }
   .hero-logo {
     max-width: 500px;
     width: 48vh;
@@ -1959,7 +1987,7 @@ section {
   }
   .small {
     font-size: 16px !important;
-  }
+  }  
 }
 
 
