@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .hero-address h3 {
     font-size: 28px;
-  }
+  }  
 }
 /*--------------------------------------------------------------
 # Preloader
@@ -166,6 +166,11 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top i:hover {
   background: #3284f1;
   color: #fff;
+}
+
+.dark-color {
+  color: #ff7fce;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -674,6 +679,9 @@ section {
 @media (min-width: 768px) {
   section {
     padding: 60px 0;
+  }
+  .dark-color { 
+    font-size: 22px;
   }
 }
 .section-bg {
