@@ -596,14 +596,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-watch-video i {
-  color: #e60bb4;
   font-size: 32px;
   position: absolute;
   left: 0;
   top: 7px;
   transition: 0.3s;
 }
+.catalog-video {
+  color: #ff66c4 !important;
+}
 
+.catalog-video:hover, .catalog-video i:hover { 
+  color: #ff66c4 !important;
+}
 .btn-watch-video:hover {
   color: #e60bb4;
 }
