@@ -351,6 +351,7 @@ writeBtn.addEventListener('click', () => {
         if (writeBtn.innerText !== 'Copied') {
           const originalText = writeBtn.innerText;
           writeBtn.innerText = 'Copied';
+          document.getElementById("btnCopy").style.backgroundColor='#dc4ba4';
         }
       })
       .catch(err => {
