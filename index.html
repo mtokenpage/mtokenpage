@@ -95,15 +95,16 @@
         <a href="https://app.uniswap.org/#/swap?outputCurrency=0x0Dd1989e4B0E82f154b729FF47F8c9a4f4b2cC1C" target="_blank" class="btn-get-started scrollto mr-2 mr-md-3">BUY ON UNISWAP</a>        
         <a href="https://www.dextools.io/app/uniswap/pair-explorer/0xef5a01f893a81506439572922cc7cb779e7cc91c" target="_blank" class="btn-get-started scrollto">CHART</a>
       </div>
+      
       <div class="hero-address">
         <h3 class="mt-4">$MILF ETH CONTRACT ADDRESS</h3>        
         <!-- The text field -->
-        <input class="input hero-input" disabled type="text" value="0x0Dd1989e4B0E82f154b729FF47F8c9a4f4b2cC1C" id="token">
+        <input class="input hero-input to-copy" disabled type="text" value="0x0Dd1989e4B0E82f154b729FF47F8c9a4f4b2cC1C" id="token">
         <div class="overlay-box"></div>
         <!-- The button used to copy the text -->
-        <button id="btnCopy" class="btn btn-copy" onclick="copyClip()">Copy</button>
-
+        <button id="btnCopy" class="btn btn-copy write-btn" onclick="copyClip()">Copy</button>
       </div>
+      
     </div>
   </section><!-- End Hero -->
 
@@ -319,39 +320,45 @@
   <script src="assets/js/main.js"></script>
 
   <script>
+//     function copyClip() {
+//   /* Get the text field */
+//   var copyText = document.getElementById("token");
 
-    !(function($) {
-      "use strict";
-    
-      // Porfolio isotope and filter
-      $(window).on('load', function() {    
-    
-        // Initiate venobox (lightbox feature used in portofilo)
-        $(document).ready(function() {
-          $('.venobox').venobox();
-        });
-      });
-    
-    })(jQuery);
-    
-      </script>
-  <script>
-    function copyClip() {
-  /* Get the text field */
-  var copyText = document.getElementById("token");
+// console.log(copyText);
+//   /* Select the text field */
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
-  /* Select the text field */
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+//   /* Copy the text inside the text field */
+//   document.execCommand("copy");
 
-  /* Copy the text inside the text field */
-  document.execCommand("copy");
+//   document.getElementById("btnCopy").style.backgroundColor='#dc4ba4';
+//   document.getElementById("btnCopy").style.color='#fff';
+//   document.getElementById("btnCopy").innerHTML = document.getElementById("btnCopy").innerHTML.replace('Copy','Copied');
+//   }
 
-  document.getElementById("btnCopy").style.backgroundColor='#dc4ba4';
-  document.getElementById("btnCopy").style.color='#fff';
-  document.getElementById("btnCopy").innerHTML = document.getElementById("btnCopy").innerHTML.replace('Copy','Copied');
+const writeBtn = document.querySelector('.write-btn');
+
+const resultsEl = document.querySelector('.clipboard-results');
+const inputEl = document.querySelector('.to-copy');
+
+
+writeBtn.addEventListener('click', () => {
+  const inputValue = inputEl.value.trim();
+  if (inputValue) {
+    navigator.clipboard.writeText(inputValue)
+      .then(() => {
+        if (writeBtn.innerText !== 'Copied') {
+          const originalText = writeBtn.innerText;
+          writeBtn.innerText = 'Copied';
+        }
+      })
+      .catch(err => {
+        console.log('Something went wrong', err);
+      })
   }
-  </script>
+});
+</script>
   
 </body>
 
