@@ -28,6 +28,28 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "0Arame","Roboto", sans-serif;
 }
 
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1 !important;
+}
+
+.jotform-form {
+  width: 100%;
+  text-align: center;
+}
+.jotform-form input {
+  width: 100%;
+  max-width: 500px;
+}
+#input_2 {
+  max-width: 500px;
+}
+
 .pill::after {
   content: "";
   width: 100%;
