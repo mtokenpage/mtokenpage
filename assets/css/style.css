@@ -640,6 +640,7 @@ h1, h2, h3, h4, h5, h6 {
   width: auto;
   filter: brightness(0) invert(1);
   max-height: 25px;
+  padding-right: 15px;
 }
 .logo-listing .bilaxy {
   width: 50px;
@@ -647,7 +648,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: unset;
 }
 .featured-listings-row {
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   margin: 0 auto;
 }
