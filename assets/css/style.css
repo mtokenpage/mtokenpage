@@ -23,7 +23,14 @@ a:hover {
   color: #ffc6e9;
   text-decoration: none;
 }
+.white-link {
+  color: #fff;
+}
 
+.white-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: "0Arame","Roboto", sans-serif;
 }
